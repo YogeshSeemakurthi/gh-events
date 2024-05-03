@@ -21,7 +21,7 @@ jobs:
           echo "running ls -al"
           ls -al 
           echo " running ls .npm/"
-          ls
+          ls .npm/
       - name: Test code
         run: npm run test
       - name: Build code
